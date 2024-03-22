@@ -24,7 +24,7 @@ const Layout = ({ children }: LayoutProps) => {
             <div className="flex flex-col flex-1">
                 {/* Navbar */}
                 <header className="bg-gray-900 text-white py-4 px-6">
-                    <h1 className="text-lg font-semibold">Navbar</h1>
+                    <h1 className="text-lg font-semibold ml-3">Navbar</h1>
                 </header>
 
                 {/* Body */}

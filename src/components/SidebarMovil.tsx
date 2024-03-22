@@ -9,14 +9,14 @@ export const SidebarMovil = () => {
     return (
         <div>
             <button
-                className="fixed top-2 right-4 bg-gray-700 text-white rounded-full w-10 h-10 flex items-center justify-center z-10"
+                className="fixed top-2 right-4 bg-gray-700 text-white rounded-full w-10 h-10 flex items-center justify-center z-30"
                 onClick={toggleSideMenu}
             >
                 <LuMenu size={20} />
             </button>
             <div
                 className={clsx(
-                    "fixed top-0 left-0 w-full h-full bg-gray-800 text-white flex flex-col justify-center items-center transition-opacity duration-300",
+                    "fixed top-0 left-0 w-full z-20 h-full bg-gray-800 text-white flex flex-col justify-center items-center transition-opacity duration-300",
                     { "opacity-100": isOpenSideMenu, "opacity-0": !isOpenSideMenu }
                 )}
             >

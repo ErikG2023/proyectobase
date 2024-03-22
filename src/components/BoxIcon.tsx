@@ -9,8 +9,8 @@ interface Props {
 export default function BoxIcon({ icon, backgorundColor }: Props) {
     const bgColor = backgorundColor
         ? backgorundColor === "WHITE"
-            ? "bg-white"
-            : "bg-[#222222]"
+            ? "bg-white text-black"
+            : "bg-[#222222] text-white"
         : "bg-transparent";
 
     return (
