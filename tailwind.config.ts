@@ -7,6 +7,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '1rem',
+        md: '1.5rem',
+        lg: '2rem'
+      }
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -24,7 +32,7 @@ const config: Config = {
         "cobalt-blue": "hsl(234, 85%, 45%)",
         "pale-blue": "hsl(221, 100%, 96%)",
         "light-lavender": "hsl(241, 100%, 89%)",
-        "dark-gray-blue": "hsl(224, 30%, 27%)",
+        "dark-gray-blue": "hsl(224, 30%, 27%)"
         // primary: {
         //   50: "#f3faf7",
         //   100: "#def3ea",
@@ -41,6 +49,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    require('@tailwindcss/forms')
+  ],
 };
 export default config;

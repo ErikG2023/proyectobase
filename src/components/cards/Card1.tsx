@@ -2,21 +2,21 @@ import React from 'react'
 
 export const Card1 = () => {
     return (
-        <section className=" bg-white shadow-2xl md:flex md:rounded-2xl ">
+        <section className=" bg-white shadow-2xl md:flex md:rounded-2xl md:max-w-7xl mx-auto ">
 
-            <article className="bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-2xl p-10 text-white text-center md:rounded-2xl md:w-1/2 md:grid md:content-center">
+            <article className="bg-blue-500/25 rounded-b-2xl p-10 text-white text-center md:rounded-2xl md:w-1/2 md:grid md:content-center">
 
-                <p className="text-xl font-bold text-light-lavender"> Your Result</p>
+                <p className="text-xl font-bold text-blue-800"> Your Result</p>
 
-                <div className="w-36 aspect-square bg-gradient-to-b from-violet-blue to-persian-blue rounded-full mx-auto my-8 grid content-center md:w-56">
+                <div className="w-36 aspect-square bg-blue-900 rounded-full mx-auto my-8 grid content-center md:w-56">
 
-                    <p className="text-5xl font-bold mb-2 md:text-7xl">76</p>
-                    <p className="font-bold text-light-lavender"> of 100</p>
+                    <p className="text-5xl font-bold mb-2 md:text-7xl">766</p>
+                    {/* <p className="font-bold text-light-lavender"> of 100</p> */}
 
                 </div>
 
-                <h3 className="text-3xl mb-4 font-bold">Great</h3>
-                <p className="text-light-lavender">You scored higher than 65% of the people who have taken these tests.</p>
+                <h3 className=" text-xl lg:text-3xl mb-4 font-bold">Personal Eventual Spot</h3>
+                <p className="text-blue-800/40">You scored higher than 65% of the people who have taken these tests.</p>
 
             </article>
 
@@ -76,7 +76,6 @@ export const Card1 = () => {
 
                 </div>
 
-                <a href="#" className="bg-dark-gray-blue text-white rounded-full py-5 text-center font-bold hover:bg-gradient-to-b from-light-slate-blue to-light-royal-blue">Continue</a>
 
             </article>
 
